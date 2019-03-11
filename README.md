@@ -20,9 +20,11 @@ to the require section of your composer.json file.
 
 ## Agreement:
 
-credentials id => AppKey
+credentials id: AppKey
 
-credentials key => AppSecret
+credentials key: AppSecret
+
+credentials algorithm: sha256
 
 ## Usage
 
