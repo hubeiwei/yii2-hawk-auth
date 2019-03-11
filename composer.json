@@ -1,0 +1,32 @@
+{
+    "name": "hubeiwei/yii2-hawk-auth",
+    "description": "",
+    "keywords": [
+        "yii2",
+        "api",
+        "hawk",
+        "Authorization",
+        "auth",
+        "sign"
+    ],
+    "homepage": "https://github.com/hubeiwei/yii2-hawk-auth",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hubeiwei",
+            "email": "hubeiwei@hotmail.com",
+            "homepage": "https://hubeiwei.github.io"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "shawm11/hawk-auth": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "hubeiwei\\yii2Hawk\\": "src"
+        }
+    }
+}
