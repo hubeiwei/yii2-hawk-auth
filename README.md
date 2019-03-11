@@ -46,8 +46,6 @@ public static function findIdentityByAccessToken($token, $type = null)
     }
 
     // ...
-
-    return $user;
 }
 ```
 
