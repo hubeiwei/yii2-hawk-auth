@@ -20,11 +20,11 @@ to the require section of your composer.json file.
 
 ## Agreement:
 
-credentials id: AppKey
+id: AppKey
 
-credentials key: AppSecret
+key: AppSecret
 
-credentials algorithm: sha256
+algorithm: sha256
 
 ## Usage
 
@@ -62,6 +62,7 @@ public function behaviors()
     $behaviors['authenticator'] = [
         'class' => HawkAuth::class,
         // 'header' => 'Authorization',
+        // 'algorithm' => 'sha256',
         // 'keyAttribute' => 'app_secret',
     ];
     return $behaviors;

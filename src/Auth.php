@@ -14,6 +14,8 @@ class Auth extends AuthMethod
 {
     public $header = 'Authorization';
 
+    public $algorithm = 'sha256';
+
     /**
      * @var string user AppSecret attribute
      */
@@ -54,7 +56,7 @@ class Auth extends AuthMethod
             $credentials = [
                 'id' => $id,
                 'key' => ArrayHelper::getValue($identity, $this->appSecretAttribute),
-                'algorithm' => 'sha256',
+                'algorithm' => $this->algorithm,
                 'identity' => $identity,
             ];
             return $credentials;
