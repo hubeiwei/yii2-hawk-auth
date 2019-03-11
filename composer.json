@@ -1,6 +1,6 @@
 {
     "name": "hubeiwei/yii2-hawk-auth",
-    "description": "",
+    "description": "Hawk authorization for yii2",
     "keywords": [
         "yii2",
         "api",
